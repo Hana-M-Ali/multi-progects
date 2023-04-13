@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Navegation Button</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <!--Social Media Navegation Button  -->
+    <div class="container">
+      <div class="media-box">
+        <a href="#" style="background: #e60023">
+          <i class="fa-brands fa-pinterest"></i>
+          <span class="tooltip" style="color: #e60023">Pinterest</span>
+        </a>
+        <a href="#" style="background: #0e76a8">
+          <i class="fa-brands fa-linkedin"></i>
+          <span class="tooltip" style="color: #0e76a8">Linkedin</span>
+        </a>
+        <a href="#" style="background: #ff0000">
+          <i class="fa-brands fa-youtube"></i>
+          <span class="tooltip" style="color: #ff0000">Youtube</span>
+        </a>
+        <a href="#" style="background: #4267b2">
+          <i class="fa-brands fa-facebook"></i>
+          <span class="tooltip" style="color: #4267b2">facebook</span>
+        </a>
+        <a href="#" style="background: #ea4689">
+          <i class="fa-brands fa-dribbble"></i>
+          <span class="tooltip" style="color: #ea4689">Dribbble</span>
+        </a>
+        <a href="#" style="background: #8e36ff">
+          <i class="fa-brands fa-github"></i>
+          <span class="tooltip" style="color: #8e36ff">Github</span>
+        </a>
+        <a href="#" style="background: #1da1f2">
+          <i class="fa-brands fa-twitter"></i>
+          <span class="tooltip" style="color: #1da1f2">Twitter</span>
+        </a>
+      </div>
+      <span class="close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </span>
+    </div>
+    <!-- Create Random Password -->
+    <div class="warpper">
+      <div class="password-box">
+        <input type="text" placeholder="Create Your Password" disabled />
+        <i class="fa-solid fa-copy copy-icon"></i>
+      </div>
+      <div class="range-box">
+        <input type="range" min="6" max="16" value="8" />
+        <span class="slider-number">8</span>
+      </div>
+      <button class="generate-button">Generate Button</button>
+    </div>
+
+    <!-- Limiting Characters -->
+    <div class="input-box">
+      <textarea placeholder="Add your title " required></textarea>
+      <span class="title">Title</span>
+      <div class="characters">
+        <span class="single-number">0</span>
+        <span class="limit-number">/100</span>
+      </div>
+    </div>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
